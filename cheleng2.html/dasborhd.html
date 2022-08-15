@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="margin: 0;">
+    <section class="nav" style="position:fixed; width:100vw; height: 15vh; background: lightgreen;">
+        <h1 style="padding: 10px;font-size: xx-large;">Dashboard</h1>
+        <a style="padding: 10px;text-decoration: none;" href="#home">Home</a>
+        <a style="padding: 10px;text-decoration: none;" href="#about">About</a>
+        <a style="padding: 10px;text-decoration: none;" href="#portfolio">Portfolio</a>
+        <a style="padding: 10px;text-decoration: none;" href="#contact">Contact</a>
+    </section>
+    <section id="home" style="width: 100vw; height:100vh; background: whitesmoke;display: flex; justify-content: center; align-items: center;">
+        <div style="text-align: center;">
+            <img src="/cheleng/Screen Shot 2022-02-10 at 9.26.36 AM-modified (1).png" alt="">
+            <p style="font-size: 50px; text-align: center;"><b>Hi,</b> Abdurrazaq</p>
+            <p style="text-align:center">It's First time learn about HTML With X RPL</p>
+            <p style="text-align:center">I hope You Happy learn  With Me</p>
+        </div>
+    </section>
+    <section id="about" style="width: 100vw; height:100vh; background: whitesmoke;display: flex; justify-content: center; align-items: center;">
+        <div style="text-align: center;">
+            <h1 style="font-size: 60px;"><i>About</i> Me</h1>
+            <p  style="font-size: 20px;"><b>hello, i'm a software engineer,</b> <i>i'm very cool, i'm tall,</i> <s>i'm 10th grade in idn boarding school,</s> <mark>i can make a very cool looking application and i want to have aad, gde and join apple dev academy and a noogler hat</mark></p>
+        </div>   
+    </section>
+    <section id="portfolio" style="width: 100vw; height:100vh; background: whitesmoke;display: flex; justify-content: center; align-items: center;">
+        <div style="text-align: center;border">
+            <h2>Portfolio</h2>
+            <table style="border: 1px solid black; width: 60vh; height: 20em"border>
+                <tr>
+                    <th>Category</th>
+                    <th>Name</th>
+                    <th>Documentation</th>
+                </tr>
+                <tr>
+                    <td rowspan="3">Certificate</td>
+                    <td>HTML</td>
+                    <td><img style="height:13vw ;width: auto;" src="./5d4afc70-935f-4d84-bf27-56193086b29d.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td>Kotlin</td>
+                    <td><img style="height:13vw ;width: auto;" src="./kotlin.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td><img style="height:13vw ;width: auto;" src="./python.png" alt=""></td>
+                </tr>
+            </table>
+        </div>   
+    </section>
+    <center>
+        <section id="contact" style="padding: 10px; height: 30em">
+           <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.971446210669!2d107.03597311477063!3d-6.525289995280136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69bc6e5be3d9bd%3A0x6b9881dabd801476!2sSMK%20IDN%20Boarding%20School!5e0!3m2!1sid!2sid!4v1660527678214!5m2!1sid!2sid"
+              width="600"
+              height="370"
+              style="border: 0; float: right; margin-right: 3em; margin-top: 5em"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+           ></iframe>
+           <form action="#" method="post" style="padding: 15px; width: 40%; float: left; margin: 2em 0 0 10em; text-align: left">
+              <fieldset>
+                 <legend style="padding: 15px; background-color: whitesmoke; border-radius: 30px; color: black; width: 5em"><center>Send me</center></legend>
+                 <label>Nama</label>
+                 <input type="text" style="width: 100%; margin-bottom: 10px" />
+                 <label>Email</label>
+                 <input type="email" style="width: 100%; margin-bottom: 10px" />
+                 <label>Message</label>
+                 <textarea cols="30" rows="10" style="width: 100%; margin-bottom: 10px; margin-top: 10px"></textarea>
+                <button style="width:60%;background: whitesmoke;border: 0;height: 30px;color: black;">Send</button>
+              </fieldset>
+           </form>
+        </section>
+     </center>
+</body>
+</html>
