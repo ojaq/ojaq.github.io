@@ -1,0 +1,82 @@
+*{
+padding: 0;
+margin: 0;
+}
+    .box{
+        background: lightseagreen;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.dot{
+        height: 50px;
+        width: 50px;
+        background-color: #bbb;
+        border-radius: 50%;
+        margin-right: 30px;
+}
+
+.star-six {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #bbb;
+    position: relative;
+    margin-right: 30px;
+  }
+  .star-six:after {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid #bbb;
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: -50px;
+    margin-right: 30px;
+  }
+
+  .space-invader {
+    box-shadow: 0 0 0 1em red,
+    0 1em 0 1em red,
+    -2.5em 1.5em 0 .5em red,
+    2.5em 1.5em 0 .5em red,
+    -3em -3em 0 0 red,
+    3em -3em 0 0 red,
+    -2em -2em 0 0 red,
+    2em -2em 0 0 red,
+    -3em -1em 0 0 red,
+    -2em -1em 0 0 red,
+    2em -1em 0 0 red,
+    3em -1em 0 0 red,
+    -4em 0 0 0 red,
+    -3em 0 0 0 red,
+    3em 0 0 0 red,
+    4em 0 0 0 red,
+    -5em 1em 0 0 red,
+    -4em 1em 0 0 red,
+    4em 1em 0 0 red,
+    5em 1em 0 0 red,
+    -5em 2em 0 0 red,
+    5em 2em 0 0 red,
+    -5em 3em 0 0 red,
+    -3em 3em 0 0 red,
+    3em 3em 0 0 red,
+    5em 3em 0 0 red,
+    -2em 4em 0 0 red,
+    -1em 4em 0 0 red,
+    1em 4em 0 0 red,
+    2em 4em 0 0 red;
+    background: red;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    margin-left: 80px;
+    margin-right: 110px;
+  }
+
