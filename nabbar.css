@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body {
+  font-family: determination;
+}
+  nav {
+    background-color: black;
+    padding: 6px;
+    
+  }
+
+  nav ul {
+    list-style-type: none;
+    text-align: left;
+    font-size: 30px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    color: white;
+  }
+  
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px ;
+    text-decoration: none;
+    font-family: determination;
+    text-align: left; 
+  }
+    
+  a:hover{
+    font-weight: 1000;
+    color: yellow;
+    text-shadow: 1px 1px #898989;
+  }
+
+  nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: black;
+  }
+
+  nav ul li:hover ul {
+    display: block;
+    border-radius: 5px;
+    font-size: x-large;
+  }
+
+  nav ul li ul li{
+    display: block;
+  }
+
+  .arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+    margin-bottom: 4px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  @font-face {
+    font-family: determination;
+    src: url(DeterminationMonoWebRegular-Z5oq.ttf);
+  }
+
+  div{
+    text-align: center;
+  }
+  .pp{
+    height: 30vh;
+    width: auto;
+    border-radius: 24px;
+    object-fit: cover;
+    transform: rotate(8deg);
+    box-shadow: rgb(255 215 77 / 60%) -1px -1px 6px, rgb(124 127 255 / 60%) 1px 1px 6px;
+    background: rgb(23, 15, 30);
+    transition: all 0.2s ease 0s;
+    margin-bottom: 10px;
+  }
+  .pp:hover{
+    position: relative;
+    transform: rotate(0deg);
+    animation: 0.5s ease 0.5s 1;
+    -webkit-box-shadow: 0px 0px 3px 5px #f2e1f2;
+    -moz-box-shadow: 0px 0px 3px 5px #f2e1f2;
+    box-shadow: 0px 0px 3px 5px #f2e1f2; 
+  }
+  h1{
+    margin-top: 5px;
+    margin-bottom: 7px;
+    font-size: 50px;
+  }
+  .backwhite{
+    background-color: white;
+  }
+  .backblack{
+    background-color: black;
+  }
+
+  .white{
+    color: white;
+  }
+  .black{
+    color: black;
+  }
+  .width{
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+  div.polaroid {
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.container {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom:10px;
+    font-size: 25px;
+    font-weight: 900;
+  }
+
+  .bg-image {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: 900;
+    border: 3px solid #f1f1f1;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+  }
+
+  .glow {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px grey, 0 0 20px grey, 0 0 25px grey, 0 0 30px grey, 0 0 35px grey;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 15px rgba(80, 80, 80), 0 0 25px rgba(80, 80, 80), 0 0 30px rgba(80, 80, 80), 0 0 35px rgba(80, 80, 80), 0 0 40px rgba(80, 80, 80);
+    }
+  }
